@@ -307,3 +307,22 @@ span.GayEnergy {
 span.rainbow-text {
     animation: rainbow-text 1s infinite;
 }
+
+@keyframes logo-anim {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(-90deg);
+    }
+}
+
+img.img-anim{
+    animation: logo-anim 10s infinite;
+}
