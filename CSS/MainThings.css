@@ -316,10 +316,10 @@ span.rainbow-text {
         transform: rotate(0deg);
     }
     75%{
-        transform: rotate(90deg);
+        transform: rotate(45deg);
     }
     100%{
-        transform: rotate(-90deg);
+        transform: rotate(315deg);
     }
 }
 
