@@ -103,7 +103,7 @@ td.left {
 }
 
 span.GayEnergy {
-    animation: gay-text 3s infinite;
+    animation: gay-text 10s infinite;
 }
 
 @keyframes gay-text {
