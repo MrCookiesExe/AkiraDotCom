@@ -310,16 +310,19 @@ span.rainbow-text {
 
 @keyframes logo-anim {
     0%{
-        transform: rotate(0deg);
+        transform: rotate(0deg) scale(1);
     }
     50%{
-        transform: rotate(45deg);
+        transform: rotate(45deg) scale(.80);
     }
     75%{
-        transform: rotate(315deg);
+        transform: rotate(-45deg) scale(.80);
+    }
+    90%{
+        transform: rotate(360deg) scale(.5);
     }
     100%{
-        transform: rotate(0deg);
+        transform: rotate(0deg) scale(1);
     }
 }
 
