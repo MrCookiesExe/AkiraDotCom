@@ -71,10 +71,13 @@ div.imgHolder {
     text-align: center;
     font-size: 30px;
     border-radius: 25px;
-    background-color: #525252;
-    width: 90%;
+    background-color: #404040;
+    height: auto;
     padding: 0;
-    border: 5px solid #404040;
+    border: 10px solid #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 td.left {
@@ -309,35 +312,38 @@ span.rainbow-text {
 }
 
 @keyframes logo-anim {
-    0%{
+    0% {
         transform: rotate(0deg) scale(1);
     }
-    50%{
+    50% {
+        transform: rotate(0deg) scale(1);
+    }
+    60% {
         transform: rotate(45deg) scale(.80);
     }
-    75%{
+    75% {
         transform: rotate(-45deg) scale(.80);
     }
-    90%{
+    90% {
         transform: rotate(360deg) scale(.5);
     }
-    100%{
+    100% {
         transform: rotate(0deg) scale(1);
     }
 }
 
-img.img-anim{
+img.img-anim {
     animation: logo-anim 10s infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
     *, ::before, ::after {
-      animation-delay: -1ms !important;
-      animation-duration: 1ms !important;
-      animation-iteration-count: 1 !important;
-      background-attachment: initial !important;
-      scroll-behavior: auto !important;
-      transition-duration: 0s !important;
-      transition-delay: 0s !important;
+        animation-delay: -1ms !important;
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        background-attachment: initial !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0s !important;
+        transition-delay: 0s !important;
     }
-  }
+}
